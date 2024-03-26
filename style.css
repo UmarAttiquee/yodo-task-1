@@ -1,0 +1,1294 @@
+/**
+ * Theme Name:        umar
+ * Theme URI:         https://example.com/fabled-sunset
+ * Description:       Custom theme description...
+ * Version:           1.0.0
+ * Author:            Your Name
+ * Author URI:        https://example.com
+ * Tags:              block-patterns, full-site-editing
+ * Text Domain:       umar
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: 
+  #F3F5FA;
+  
+}
+
+ 
+
+
+
+
+
+
+
+/************************************************* Top Headr Started**********************************  */
+
+
+.top_header {
+   margin-top: 0 !important;
+  background-color: #212121;
+}
+.top_header_right {
+  padding-top: 21.24px;
+  padding-bottom: 21.24px;
+  padding-left: 165px;
+  
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  
+  display: flex;
+  gap: 20px;
+}
+.top_header_right_icon_gap {
+  padding-left: 4px;
+}
+
+.top_header_left {
+  padding-top: 13.74px;
+  padding-bottom: 13.74px;
+  padding-left: 165px;
+  padding-right: 200px;
+  
+  display: flex;
+}
+.top_header_left_1st_div {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 20px;
+  line-height: 18.75px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  gap: 10px;
+}
+.top_header_left_2nd_div_a1 {
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 16px;
+  line-height: 18.75px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.1);
+}
+.top_header_left_2nd_div_a2 {
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 18.75px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .top_header_right,
+  .top_header_left {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .top_header_left_1st_div {
+      padding-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .top_header_left_2nd_div_a1,
+  .top_header_left_2nd_div_a2 {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
+
+
+/************************************************* To Header Ended**********************************  */
+
+
+
+
+
+
+
+
+
+
+/************************************************* Bottom Headr Started**********************************  */
+
+
+.bottom_header
+{
+   background-color: #FFFFFF;
+}
+
+.navbar-toggler-icon
+{
+   color: #212121;
+}
+.bottom_header_left_col_img
+{
+   padding-top: 20.01px;
+   padding-bottom: 20.01px;
+   padding-left: 135px;
+   padding-right: 381px;
+}
+
+.bottom_header_col_right
+{
+   display: flex;
+}
+.nav-link-a
+{
+   color:black;
+ 
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 1rem;
+}
+
+
+
+
+
+
+
+/************************************************* Bottom Headr Ended**********************************  */
+
+
+
+
+
+
+/************************************************* Footer Started**********************************  */
+
+
+.footer_bg
+{
+  background-image: url('imgs/footer.png');
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.footer_headeing{
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 21.76px;
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  padding-bottom: 10px;
+
+}
+.footer_row
+{
+padding-left: 164px;
+padding-right: 100px;
+padding-top: 88px;
+padding-bottom: 280.26px;
+}
+
+
+.footer_ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+
+
+}
+.footer_ul li a
+{
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+
+
+
+.footer_content
+{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+.footer_content_img
+{
+  padding-bottom: 15px;
+}
+.footer_content_row2
+{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  margin:0
+}
+
+/************************************************* Footer  Ended**********************************  */
+
+
+
+
+
+
+
+
+
+
+
+/************************************************* Contect us  Started**********************************  */
+
+
+.contectus_container
+{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.contectus_container_row
+{
+    margin-top: 50px;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    
+   
+}
+.con_form_1
+{
+padding-top:20px;
+padding-bottom:20px;
+padding-left:60px; 
+
+
+
+}
+.con_form
+{
+    background-color: #F4F6F9;
+    padding: 20px;
+    border-radius: 20px;
+}
+.con_form_h1
+{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Archivo', sans-serif;
+    padding-bottom: 25px;
+
+}
+
+
+
+
+
+
+.contect_icon_space{
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 1rem;
+}
+
+.contect_icon_size
+{
+    font-size: 2rem;
+    border: 1px solid transparent;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 40px;
+    margin-right: 25px;
+    color: #0065B2;
+}
+
+.contect_inside_text
+{   
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 1rem;
+     line-height: 23px;
+
+}
+.contect_h2
+{
+font-size: 40px;
+font-family: 'Archivo', sans-serif;
+
+font-weight: 700;
+line-height: 50px;
+}
+.contect_p
+{
+color: #0065B2;
+font-weight: 600;
+font-size: 1rem;
+}
+
+
+.form_input
+{
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+margin-bottom: 10x;
+border: 2px solid transparent;
+
+
+}
+
+.input_fields_gap
+{
+    margin-bottom: 25px;
+}
+
+.fi_d
+{
+    margin-top: 1rem;
+    background-color: white;
+    color: white;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    font-size: 1.1rem;
+    width: 39vw;
+    border: 2px solid transparent;
+}
+.fi_b
+{
+     margin-top: 1rem;
+    background-color: #0065B2;
+    color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    font-size: 1.1rem;
+    width: 39vw;
+    border: 2px solid transparent;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0 !important;
+}
+
+
+
+/************************************************* Cintect us Ended**********************************  */
+
+
+
+
+
+
+
+/************************************************* Review Started**********************************  */
+
+
+.review_container
+{
+    padding-top: 100px;
+}
+.review_container_row
+{
+    
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: white;
+}
+.review_container_h1
+{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 43px;
+
+}
+
+.review_container_name
+{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 20px;
+}
+.review_container_p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 30px;
+    font-style: italic;
+}
+.review_container_content
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.set_qua
+{
+    display: flex;
+}
+
+.review_container_col2
+{
+    padding-left: 3rem;
+}
+
+.card-img-top_1 {
+    height: 50vh !important;
+    width: 100%;
+}
+
+
+.card-title ,.card_title_style
+{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.card-title ,.card_title_style:hover
+{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.ax:hover
+{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/************************************************* Review Ended**********************************  */
+
+
+
+
+/************************************************* Heor 5 Started**********************************  */
+
+
+.hero5_01
+{
+    background-image: url('imgs/hero5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.hero5_01 h2
+{
+    color:white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    
+    text-align: center;
+    line-height: 50px;
+}
+.hero5_ds
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.hero5_btu1
+{
+    border-radius: 30px;
+    
+    
+    background-color:  #0065B2;
+
+    color: #f3f3f3;
+    padding-left: 1rem;
+    padding-right: 1.1rem;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    border: 2px solid transparent;
+}
+.hero5_btu2
+{
+    border-radius: 30px;
+    margin-left: 1rem;
+    
+    background-color: transparent;
+    color: #f3f3f3;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    border: 2px solid white;
+    
+}
+
+
+
+
+
+/************************************************* Hero 5 Ended**********************************  */
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************* Hero 3 Started**********************************  */
+
+.hero3_con
+{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.hero3_row
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.video-container {
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 36.25%; /* Adjust this value to control the aspect ratio (height/width) of the video */
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hero3_wap
+{
+    margin-left: 30px;
+}
+
+.hero3_p
+{
+    
+    color: #0065B2;
+    font-size: 1rem;
+    line-height: 31px;
+    font-weight: 800;
+}
+
+.hero3_h1
+{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 49px;
+}
+.hero3_span1
+{
+    
+    font-size: 1rem;
+    line-height: 27px;
+}
+
+.hero3_span2
+{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 27px;
+}
+
+.hero_3_btn
+{
+    background-color: #0065B2;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 43px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    gap: 10px;
+
+}
+
+
+
+/************************************************* Hero 3 Ended**********************************  */
+
+
+
+
+
+
+
+
+
+
+/************************************************* News Post Started**********************************  */
+
+.container-fluid_bg
+{
+    background-color: #F3F5FA;
+    
+}
+.container-fluid_bg .mt-4
+{
+    margin-top: 0 !important;
+}
+
+.card-img-top
+{
+    height: 30vh;
+    
+}
+.card
+{
+   /* width:22vw; */
+}
+.post-excerpt .read-more {
+    color: blue; /* Adjust the color as needed */
+    text-decoration: underline; /* Underline the link */
+    display: inline-block;
+}
+.post-excerpt a
+{
+    color: #020000 ;
+}
+
+.post-excerpt a:hover
+{
+    text-decoration: none;
+    color: #020000 ;
+}
+.read-more:hover
+{
+    text-decoration: none;
+    color: #2b06b1 !important ;
+}
+
+.post-grid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
+   
+}
+.post-grid_exp {
+    padding-top: 100px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+.post-grid_h1_exp_1
+{
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #252525;
+}
+
+.post-grid_h1_exp
+{
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #252525;
+    padding-bottom: 50px;
+    
+}
+.exp_row_1
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.transparent-border {
+    border: 1px solid transparent; /* Adjust the alpha value for transparency */
+    background-color: #F4F6F9;
+  }
+.exp_title
+{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #252525;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background-color: #F4F6F9;
+}
+
+a div h5 .card_title_style 
+{
+    color: #020000;
+}
+
+.post-grid_h1
+{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #252525;
+    padding-bottom: 50px;
+    
+}
+
+
+.post-grid_btn_col
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-grid_btn_col_1
+{
+    
+   
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.post-grid_btn
+{
+    
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    padding: 15px 50px;
+    background-color: #0065B2;
+    color: white !important;
+    border-radius: 35px;
+    font-weight: 600;
+}
+
+.fa-arrow-right_i
+{
+    margin-left: 8px;
+}
+
+/************************************************* News Post Started**********************************  */
+
+
+
+
+
+
+
+
+/************************************************* Owl Carousal Started**********************************  */
+a:hover
+{
+    text-decoration: none !important;
+    color: black;
+}
+.wrapper
+{
+    position: relative;
+}
+.owl-prev {
+    
+        margin-left: 5px;
+        background-color: #0065B2;
+        color: white;
+        border: 1px solid transparent;
+        padding: 18px;
+        border-radius: 60px;
+        margin-right: 5px;
+        position: absolute;
+        top: -30%;
+        left: 84%;
+    }
+
+
+
+.owl-next
+{
+   
+    background-color: #E8E8E8;
+    color: rgb(3, 0, 0);
+    border: 1px solid black;
+    padding: 18px;
+    border-radius: 60px;
+    position: absolute;
+    top: -30%;
+    left: 90%;
+    
+}
+.owl-dot_left
+{
+    background-color: #E8E8E8;
+    color: rgb(3, 0, 0);
+    border: 1px solid black;
+    padding: 18px;
+    border-radius: 60px; 
+}
+
+.owl-carousel .owl-dot
+{
+    
+}
+
+
+.carausal_heading
+{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+font-weight: 900;
+font-size: 40px;
+padding-bottom: 50px;
+
+}
+.card
+{
+   
+}
+
+.car_div_gaps
+{
+    padding: 30px;
+}
+
+
+
+.carausal_m
+{
+    background-image: url('imgs/carousal_bg.png');
+    padding-top: 60px;
+    padding-bottom: 40px;
+   
+}
+
+.carausal_row{
+    margin: 60px, 150px ,60px, 100px;
+}
+.carausal_row_hero1{
+
+}
+
+
+
+.owl-carousel 
+{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+.owl-carousel .owl-item {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+ }
+  .owl-carousel img .card-img-top {
+max-width: 100%;
+height: auto;
+   
+}
+
+/* .owl-pagination,.owl-prev,.owl-next
+{
+    border-radius: 30px;
+    padding: 12px;
+    gap: 10px;
+    border: 2px solid black;
+  
+} */
+
+.nav-left
+{
+    border: 1px solid #0065B2;
+    padding: 13px;
+    border-radius: 61px;
+    width: 100%;
+    margin-right: 11px;
+    display: inline-block;
+    background: #0065B2;
+    color: white;
+}
+.nav-right {
+    border: 1px solid black;
+    padding: 13px;
+    border-radius: 61px;
+    width: 100%;
+    margin-right: 11px;
+    display: inline-block;
+    
+    ;
+}
+
+/************************************************* Hero 1 started**********************************  */
+
+.hero1_bg_2
+{
+  background-image: url('imgs/footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero1_bg
+{
+
+    background-image: url('imgs/hero1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.hero1_con1
+{
+    padding-left: 165px ;
+    
+    padding-top: 88.39px;
+   
+}
+.hero1_div_btn
+{
+  padding-top: 40px;
+}
+
+.hero1_h
+{
+  
+   font-size: 54px;
+   font-family: 'Archivo', sans-serif;
+  font-weight: 900; 
+  color:#ffffff;
+  line-height: 67.39px;
+}
+.hero1_h22
+{
+  font-size: 45px;
+  font-family: 'Archivo', sans-serif;
+ font-weight: 500; 
+ color:#ffffff;
+ line-height: 67.39px;
+   
+}
+
+.hero1_bt1
+{
+    border-radius: 43px;
+    background-color:  #0065B2;
+    color: #f3f3f3 !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom:18px ;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+
+}
+
+.hero1_bt2
+{
+  border-radius: 43px;
+    background-color:  transparent;
+    color: #f3f3f3 !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom:18px ;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-left: 10px;
+}
+
+
+.hero2_bt2
+{
+    border-radius: 43px;
+    background-color:  #eb6d06;
+    color: #f3f3f3 !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom:18px ;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.hero2_sh2
+{
+    font-size: 1.5rem;
+    text-align: left;
+color: #eb6d06;
+width: 70px;
+border-bottom: 4px solid #eb6d06;
+margin-left: 1rem;
+}
+
+.hero1_num
+{
+    padding-top: 88px;
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+ .hero1_sh1
+{
+    font-size: 1.5rem;
+    text-align: left;
+color: #2E97E8;
+width: 70px;
+border-bottom: 4px solid #2E97E8;
+}
+ .hero1_sh2
+{
+    font-size: 1.5rem;
+    text-align: left;
+    color: #fffdfd;
+    width: 70px;
+border-bottom: 4px solid #fffdfd;
+margin-left: 1rem;
+}
+
+/************************************************* Hero 1  Ended**********************************  */
+
+
+
+
+
+
+
+
+
+
+
+/************************************************* Explore  Started**********************************  */
+
+.post-grid_exp {
+    padding-top: 100px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+.post-grid_h1_exp_1
+{
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #252525;
+}
+
+.post-grid_h1_exp
+{
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #252525;
+    padding-bottom: 50px;
+    
+}
+.exp_row_1
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.transparent-border {
+    border: 1px solid transparent; /* Adjust the alpha value for transparency */
+    background-color: #F4F6F9;
+  }
+.exp_title
+{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #252525;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background-color: #F4F6F9;
+}
+
+a div h5 .card_title_style 
+{
+    color: #020000;
+}
+
+
+
+
+.post-grid_btn_col
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-grid_btn_col_1
+{
+    
+   
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.post-grid_btn {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    
+    padding-top: 21px;
+    padding-right: 50px;
+    padding-bottom: 21px;
+    padding-left: 50px;
+    background-color: #0065B2;
+    color: white !important;
+    border-radius: 35px;
+    font-weight: 600;
+}
+
+.fa-arrow-right_i
+{
+    margin-left: 8px;
+}
+
+
+.exp_category_name
+{
+    font-size: 23px;
+    font-family: 'Archivo', sans-serif;
+   font-weight: 600; 
+   color:#ffffff;
+   line-height: 67.39px;
+   color: black;
+   text-decoration: none;
+   text-align: center;
+}
+
+
+.transparent-border   
+{
+width: 18rem;
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+
+
+.explore_sect
+{
+    padding-bottom: 50px;
+}
+
+/************************************************* Explore  Ended**********************************  */
+
+
+.post-grid_h1_product
+{
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #252525;
+    padding-bottom: 50px;
+}
+
+.exp_padding_top
+{
+    padding-top: 50px;
+}
